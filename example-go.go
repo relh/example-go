@@ -1,4 +1,4 @@
-package main // import "github.com/CenturyLink/first"
+package main // import "github.com/relh/example-go"
 
 import "fmt"
 func main() {
