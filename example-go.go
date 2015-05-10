@@ -1,4 +1,4 @@
-package main // import "github.com/relh/example-go"
+package main // import "app"
 
 import "fmt"
 func main() {
