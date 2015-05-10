@@ -1,6 +1,4 @@
-// this is not sanctioned
-
-package main 
+package main // import "github.com/relh/example-go" 
 
 import  "fmt"
 
