@@ -1,0 +1,4 @@
+FROM scratch
+ADD app /target/app
+EXPOSE 8001
+ENTRYPOINT ["/target/app"]
