@@ -1,4 +1,4 @@
-FROM scratch
-ADD app /target/app
-EXPOSE 8001
+FROM flynn/busybox
+ADD . /target/
+RUN chmod +x /target/app
 ENTRYPOINT ["/target/app"]
